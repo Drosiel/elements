@@ -1,0 +1,19 @@
+.auth, .auth__item
+    display: flex
+    align-items: center
+.auth
+    color: #8c949f
+    font-size: .875rem
+    letter-spacing: .25px
+    &__item
+        padding: 0 8px
+        cursor: pointer
+        &:not(:last-child)
+            border-right: 1px solid #8c949f
+        @media screen and ( max-width: 980px )
+            font-size: .75rem
+    &__icon    
+        width: 40px
+        height: 40px
+        fill: #8c949f
+        margin: 0 8px 0 0

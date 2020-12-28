@@ -1,0 +1,30 @@
+.article
+    box-shadow: none
+    display: flex
+    background: none
+    border-radius: 0
+    cursor: auto
+    @media screen and ( max-width: 980px )
+        flex-direction: column
+        
+    &__img
+        flex: 1 0 216px
+        height: 144px
+        background: #444444
+    &__content
+        padding: 0 0 0 24px
+        >:not(:last-child)
+            margin-bottom: 16px
+    &__title
+        letter-spacing: .15px
+        font-weight: 500
+        font-size: 1.25rem
+    &__date
+        font-size: .875rem
+        color: #b1b8c0
+    &__text
+        font-size: .875rem
+        color: #8c949f
+        letter-spacing: .25px
+        line-height: 21px
+        
