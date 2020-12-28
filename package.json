@@ -45,7 +45,7 @@
 		"typescript": "^3.9.3",
 		"webpack-cli": "^3.3.10"
 	},
-	"homepage": "",
+	"homepage": "https://drosiel.github.io/elements/",
 	"dependencies": {
 		"@types/react-redux": "^7.1.9",
 		"axios": "^0.21.0",
