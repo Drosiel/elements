@@ -26,7 +26,7 @@ const ElementsItem = (props) => {
 					<div className='card__name'>{elem.name}</div>
 				</div>
 			) : (
-				<div className='card__empty'> </div>
+				<div className='card__empty'></div>
 			)}
 		</div>
 	);

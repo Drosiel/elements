@@ -30,6 +30,15 @@ const Main = () => {
 						: 'empty'
 				)
 			);
+			setOther((prev) =>
+				prev.map((item) =>
+					item != 'empty'
+						? item.name.toLowerCase().includes(value.toLowerCase())
+							? { ...item, focus: true }
+							: { ...item, focus: false }
+						: 'empty'
+				)
+			);
 		} else {
 			getFields();
 		}
@@ -84,13 +93,13 @@ const Main = () => {
 						).length;
 
 						for (let j = 0; j < lengthVoid; j++) {
-							arr.push(j);
+							arr.push('empty');
 						}
 					} else {
 						arr.push(elements[i]);
 					}
 				} else {
-					arr.push(i);
+					arr.push('empty');
 				}
 			}
 		}
