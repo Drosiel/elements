@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/b2btrade.test/static/css/main.f5dc20dd.chunk.css",
-    "main.js": "/b2btrade.test/static/js/main.ca278be1.chunk.js",
-    "main.js.map": "/b2btrade.test/static/js/main.ca278be1.chunk.js.map",
-    "runtime-main.js": "/b2btrade.test/static/js/runtime-main.7bd58593.js",
-    "runtime-main.js.map": "/b2btrade.test/static/js/runtime-main.7bd58593.js.map",
-    "static/js/2.c0103941.chunk.js": "/b2btrade.test/static/js/2.c0103941.chunk.js",
-    "static/js/2.c0103941.chunk.js.map": "/b2btrade.test/static/js/2.c0103941.chunk.js.map",
-    "index.html": "/b2btrade.test/index.html",
-    "precache-manifest.5c5f7d7a1b453833d43054aa82dc798a.js": "/b2btrade.test/precache-manifest.5c5f7d7a1b453833d43054aa82dc798a.js",
-    "service-worker.js": "/b2btrade.test/service-worker.js",
-    "static/css/main.f5dc20dd.chunk.css.map": "/b2btrade.test/static/css/main.f5dc20dd.chunk.css.map",
-    "static/js/2.c0103941.chunk.js.LICENSE.txt": "/b2btrade.test/static/js/2.c0103941.chunk.js.LICENSE.txt",
-    "static/media/slider.0b15609c.jpg": "/b2btrade.test/static/media/slider.0b15609c.jpg",
-    "static/media/style.svg": "/b2btrade.test/static/media/style.0b7be79c.svg"
+    "main.css": "/static/css/main.febc3209.chunk.css",
+    "main.js": "/static/js/main.11960d95.chunk.js",
+    "main.js.map": "/static/js/main.11960d95.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8066ab95.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8066ab95.js.map",
+    "static/js/2.56213384.chunk.js": "/static/js/2.56213384.chunk.js",
+    "static/js/2.56213384.chunk.js.map": "/static/js/2.56213384.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.21cd6e82f46994ef4d84b4ac699743d0.js": "/precache-manifest.21cd6e82f46994ef4d84b4ac699743d0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.febc3209.chunk.css.map": "/static/css/main.febc3209.chunk.css.map",
+    "static/js/2.56213384.chunk.js.LICENSE.txt": "/static/js/2.56213384.chunk.js.LICENSE.txt",
+    "static/media/slider.0b15609c.jpg": "/static/media/slider.0b15609c.jpg",
+    "static/media/style.svg": "/static/media/style.a35b6209.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7bd58593.js",
-    "static/js/2.c0103941.chunk.js",
-    "static/css/main.f5dc20dd.chunk.css",
-    "static/js/main.ca278be1.chunk.js"
+    "static/js/runtime-main.8066ab95.js",
+    "static/js/2.56213384.chunk.js",
+    "static/css/main.febc3209.chunk.css",
+    "static/js/main.11960d95.chunk.js"
   ]
 }
