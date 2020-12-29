@@ -5,8 +5,8 @@
         top: 200px
         left: 50%
         transform: translateX(-50%)
-        width: 600px
-        height: 400px
+        width: 800px
+        height: 350px
         background: #0e5e5b
         padding: 25px
         border-radius: 5px
@@ -21,6 +21,12 @@
 
     &__content
         display: flex
+        >:not(:last-child)
+            margin-right: 50px
+            
+
+    &__left
+        display: flex
         flex: 1
         flex-direction: column
         h1
@@ -32,6 +38,11 @@
 
         >:not(:last-child)
             margin-bottom: 10px
+    
+    &__img
+        width: 250px
+        height: 250px
+        object-fit: contain
             
     &__close
         cursor: pointer

@@ -6,6 +6,7 @@ import elements from '../../general/elements';
 
 import Popup from '../main/Popup';
 import ElementsItem from '../elements/Item';
+import Game from '../main/Game';
 import Sort from '../elements/Sort';
 
 const Main = () => {
@@ -74,14 +75,14 @@ const Main = () => {
 
 	const getFields = () => {
 		const arr = [];
-		const count = 18 * 7;
+		const count = 18 * 8;
 		const twise = [];
 
 		for (let i = 0; i < count; i++) {
 			if (
 				(i > 55 && i < 71) ||
 				(i > 87 && i < 103) ||
-				(i > 117 && i < 126)
+				(i > 117 && i < 127)
 			) {
 				twise.push(elements[i]);
 			} else {
@@ -122,7 +123,7 @@ const Main = () => {
 					</h2>
 				</div>
 
-				<Sort setList={setList} />
+				{/* <Sort setList={setList} /> */}
 
 				<div className='section__search'>
 					<span>поиск элемента по названию:</span>
@@ -158,6 +159,10 @@ const Main = () => {
 						</div>
 					</div>
 				</div>
+			</section>
+
+			<section className='section container'>
+				<Game />
 			</section>
 
 			{isShowPopup && <Popup data={dataPopup} openPopup={openPopup} />}

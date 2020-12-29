@@ -14,59 +14,71 @@ const Popup = (props) => {
 
 			<div className='popup__form'>
 				<div className='popup__content'>
-					<div>
-						{data?.symbol && (
-							<h1 style={{ color: `${data.families}` }}>
-								{data.symbol}
-							</h1>
-						)}
+					<div className='popup__left'>
+						<div>
+							{data?.symbol && (
+								<h1 style={{ color: `${data.families}` }}>
+									{data.symbol}
+								</h1>
+							)}
+						</div>
+						<div>
+							название элемента:
+							{data?.name ? (
+								<span>{data.name}</span>
+							) : (
+								<span>'нет данных'</span>
+							)}
+						</div>
+						<div>
+							лат. название элемента:
+							{data?.latname ? (
+								<span>{data.latname}</span>
+							) : (
+								<span>'нет данных'</span>
+							)}
+						</div>
+						<div>
+							температура плавления:
+							{data?.melting ? (
+								<span>{data.melting}</span>
+							) : (
+								<span>'нет данных'</span>
+							)}
+						</div>
+						<div>
+							температура кипения:
+							{data?.boiling ? (
+								<span>{data.boiling}</span>
+							) : (
+								<span>'нет данных'</span>
+							)}
+						</div>
+						<div>
+							год открытия:
+							{data?.opening ? (
+								<span>{data.opening}</span>
+							) : (
+								<span>'нет данных'</span>
+							)}
+						</div>
+						<div>
+							кто открыл:
+							{data?.discoverer ? (
+								<span>{data.discoverer}</span>
+							) : (
+								<span>'нет данных'</span>
+							)}
+						</div>
 					</div>
-					<div>
-						название элемента:
-						{data?.name ? (
-							<span>{data.name}</span>
-						) : (
-							<span>'нет данных'</span>
-						)}
-					</div>
-					<div>
-						лат. название элемента:
-						{data?.latname ? (
-							<span>{data.latname}</span>
-						) : (
-							<span>'нет данных'</span>
-						)}
-					</div>
-					<div>
-						температура плавления:
-						{data?.melting ? (
-							<span>{data.melting}</span>
-						) : (
-							<span>'нет данных'</span>
-						)}
-					</div>
-					<div>
-						температура кипения:
-						{data?.boiling ? (
-							<span>{data.boiling}</span>
-						) : (
-							<span>'нет данных'</span>
-						)}
-					</div>
-					<div>
-						год открытия:
-						{data?.opening ? (
-							<span>{data.opening}</span>
-						) : (
-							<span>'нет данных'</span>
-						)}
-					</div>
-					<div>
-						кто открыл:
-						{data?.discoverer ? (
-							<span>{data.discoverer}</span>
-						) : (
-							<span>'нет данных'</span>
+
+					<div className='popup__right'>
+						{data?.img && (
+							<img
+								className='popup__img'
+								src={data.img}
+								alt={data.name}
+							/>
 						)}
 					</div>
 				</div>
